@@ -1,29 +1,33 @@
 body{
+	margin-right: auto;
+	margin-left: auto;
+	width: 1000px;
 	font-family: 'Ubuntu Condensed', serif; 
+
+
  	}
 
  html{
- 	background: url(bg.jpg) no-repeat center center fixed;
+ 	background: url(https://images.unsplash.com/photo-1432887382605-0abf9cc49e8f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=06cd7a5949ccae3ec78b3ab69c1161de) no-repeat center center fixed;
  	 -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
- }
+  		-moz-background-size: cover;
+ 	 -o-background-size: cover;
+ 	 background-size: cover;
+ 	}
 
 ul.nav{
-			list-style: none;
-			padding: 30px;
-			margin: 20px;
-			font-size: 20px;
-			font-color: black;
-			text-align: center;
-			
-
- 		}
+	list-style: none;
+	padding: 10px;
+	margin-right: 70px;
+	font-size: 20px;
+	font-color: black;
+	text-align: center;
+}
 
 ul li {
 	display: inline-block;
-
+	padding: 10px;
+	margin-left: 120px;
 
 }
 
@@ -31,11 +35,31 @@ ul.nav a:link{
 	color: black;
 	text-decoration: none;
 
-
 }
+/*visited links*/
 
 ul.nav a:visited{
 	color: black;
 }
+/*hovered links*/
 
- 
+ul.nav a:hover{
+	color: gray;
+
+}
+
+#form{
+	display: inline-block;
+	margin-left: 40px;
+	margin-top: 100px;
+	float: left;
+
+}
+
+ #img1{
+ 	margin-left: 200px;
+ 	margin-top: 200px;
+ 	clear: left;
+ 	
+
+ }
