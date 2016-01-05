@@ -2,36 +2,37 @@ body{
 	margin-right: auto;
 	margin-left: auto;
 	width: 1000px;
-	font-family: 'Ubuntu Condensed', serif; 
+	font-family: 'Ubuntu Condensed', serif;
+}
 
-
- 	}
-
- html{
+html{
  	background: url(https://images.unsplash.com/photo-1432887382605-0abf9cc49e8f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=06cd7a5949ccae3ec78b3ab69c1161de) no-repeat center center fixed;
  	 -webkit-background-size: cover;
   		-moz-background-size: cover;
  	 -o-background-size: cover;
  	 background-size: cover;
- 	}
+}
 
 ul.nav{
-
 	list-style: none;
-	padding: 10px;
-	margin-right: 70px;
+	padding: 1px;
+	margin-right: 5px;
+	margin-left: 5px;
 	font-size: 25px;
 	text-align: center;
 }
 
+
+
 ul li {
 	display: inline-block;
 	padding: 10px;
-	margin-left: 120px;
+	margin-left: 20px;
+	margin-right: 20px;
 	list-style: none;
 	font-color: black;
 	text-align: center;
- }
+}
 
 
 
@@ -45,7 +46,6 @@ ul.nav a:link{
 	text-align: center;
 	display: block;
 	margin-top: 50px;
-
 }
 
 /*visited links*/
