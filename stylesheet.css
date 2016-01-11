@@ -6,7 +6,7 @@ body{
 }
 
 html{
- 	background: url(https://images.unsplash.com/photo-1432887382605-0abf9cc49e8f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=06cd7a5949ccae3ec78b3ab69c1161de) no-repeat center center fixed;
+ 	background: url(background.JPG) no-repeat center center fixed;
  	 -webkit-background-size: cover;
   		-moz-background-size: cover;
  	 -o-background-size: cover;
@@ -79,18 +79,21 @@ ul.nav a:hover{
 .mainContent {
 	background:rgba(255,255,255,0.6);
 	width: 100%;
+	padding-top: 10px;
 
 }
 
  
- #footer {
+#footer {
  	bottom: 0;
  	width: 100%;
 	height: 90px;
-	position: fixed;
-	margin: 0;
+	position: relative;
+	margin: 0, auto;
 	text-align: center;
- }
+	background-color: rgba(255,255,255,0.6);
+	padding: 0;
+}
 
  div#footer img {
 	margin-right: 30px;
