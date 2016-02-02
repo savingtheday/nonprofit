@@ -3,40 +3,59 @@
 		<head>
 			<meta charset="UTF-8">
 			<link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+			<!-- Latest compiled and minified JavaScript -->
+			
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 			<link rel="stylesheet" type="text/css" href="stylesheet.css">
 			<title>Donate | Sweaters for Penguins </title>
 		</head>
 	<body>
 
-	<nav>
- 		<ul class="nav">
- 			<li><a href="index.html"> Home</a></li>
- 			<li><a href="gallery.html"> Gallery</a></li>
- 			<img src="penguinicon.png">
- 			<li><a href="donate.html"> Donate</a></li>
- 			<li><a href="http://www.ravelry.com/patterns/library/little-penguin-knitted-jumpers"> Knit</a></li>
- 		</ul>
- 	</nav>
- 	
- 		<div class="mainContent">	
+		<nav>
+	 		<ul class="navigation nav-donate">
+	 			<li><a href="index.html"> Home</a></li>
+	 			<li><a href="gallery.html"> Gallery</a></li>
+	 			<img src="penguinicon.png">
+	 			<li><a href="donate.html"> Donate</a></li>
+	 			<li><a href="http://www.ravelry.com/patterns/library/little-penguin-knitted-jumpers"> Knit</a></li>
+	 		</ul>
+	 	</nav>
 
+		<div class="mainContent main-donate">	
+			<div class="container">
+				  <!-- Nav tabs -->
+				 <ul class="nav nav-tabs" role="tablist">
+				    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Send Us a Sweater</a></li>
+				    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Give Us Your Money</a></li>
+				 </ul>
+				 <div class="clear"></div>
 
-			<div id="form">
-				<form action="MAILTO:tua43887@temple.edu" method="post" id="contactForm">
-					<p>Name: <input type="text" name="name" value="Your name" size="45"></p>
-					<p>E-mail: <input type="text" name="mail" value="someone@website.com" size="44"></p>
-					<p>Comments: <input type="text" name="Comments" value="comments" size="70"></p>
-					<p><input type="submit" value="Send"></p>
-				</form>
-				<img id="donate" src="images/donate.jpg">
-				<br>
+				  <!-- Tab panes -->
+				  <div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="home">
+				    	Please send your hand-knit penguin sweaters to my house.
+				    </div>
+				    <div role="tabpanel" class="tab-pane" id="profile">
+				    	<form action="MAILTO:tua43887@temple.edu" method="post" id="contactForm">
+						<p>Name: <input type="text" name="name" value="Your name" size="45"></p>
+						<p>E-mail: <input type="text" name="mail" value="someone@website.com" size="44"></p>
+						<p>Comments: <input type="text" name="Comments" value="comments" size="70"></p>
+						<p><input type="submit" value="Send"></p>
+						</form>
+						<img id="donate" src="images/donate.jpg">
+
+				    </div>
+				  </div>
+
+				<div class="clear"></div>
 			</div>
-
 		</div>
-			<div id="footer">
-						<a href="http://www.instagram.com/"><img src="Instagram.png"></a>
-						<a href="http://www.twitter.com"><img src="Twitter.png"></a>
-						<a href="http://facebook.com"><img src="Facebook.png"></a>
-			</div>
+		<div id="footer">
+			<a href="http://www.instagram.com/"><img src="Instagram.png"></a>
+			<a href="http://www.twitter.com"><img src="Twitter.png"></a>
+			<a href="http://facebook.com"><img src="Facebook.png"></a>
+		</div>
 </body>
 </html>

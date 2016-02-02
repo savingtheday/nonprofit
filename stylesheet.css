@@ -2,18 +2,18 @@ body{
 	margin-right: auto;
 	margin-left: auto;
 	width: 1000px;
-	font-family: 'Ubuntu Condensed', serif;
 }
 
-html{
+body, html{
  	background: url(background.JPG) no-repeat center center fixed;
  	 -webkit-background-size: cover;
   		-moz-background-size: cover;
  	 -o-background-size: cover;
  	 background-size: cover;
+ 		font-family: 'Ubuntu Condensed', serif;
 }
 
-ul.nav{
+ul.navigation{
 	list-style: none;
 	padding: 1px;
 	margin-right: 5px;
@@ -21,8 +21,6 @@ ul.nav{
 	font-size: 25px;
 	text-align: center;
 }
-
-
 
 ul li {
 	display: inline-block;
@@ -35,9 +33,7 @@ ul li {
 }
 
 
-
-
-ul.nav a:link{
+ul.navigation a:link{
 	color: black;
 	text-decoration: none;
 }
@@ -48,55 +44,12 @@ ul.nav a:link{
 	margin-top: 50px;
 }
 
-/*visited links*/
-
-ul.nav a:visited{
-	color: black;
-}
-
-/*hovered links*/
-
-ul.nav a:hover{
-	color: gray;
-
-}
-
-#donate{
-	float: right;
-	display: inline-block;
-	position: relative;
-	top: -200px;
-	left: 400px;
-}
-
-/*
-#donationDiv{
-	margin: 0, auto;
-	text-align: center;
-	width: 60%;
-} */
-
-#form{
-	display: inline-block;
-	margin-left: 40px;
-	margin-top: 100px;
-} 
-
- #img1{
- 	margin-left: 200px;
- 	margin-top: 200px;
- 	clear: left;
- 	
-}
-
 .mainContent {
 	background:rgba(255,255,255,0.6);
 	width: 100%;
-	padding-top: 10px;
-
+	padding-top: 20px;
 }
 
- 
 #footer {
  	bottom: 0;
  	width: 100%;
@@ -108,7 +61,106 @@ ul.nav a:hover{
 	padding: 0;
 }
 
- div#footer img {
+div#footer img {
  	margin-top:30px;
 	margin-right: 30px;
 	margin-bottom-bottom: 20px;
+}
+
+/*visited links*/
+
+ul.navigation a:visited{
+	color: black;
+}
+
+/*hovered links*/
+
+ul.navigation a:hover{
+	color: darkorange;
+
+}
+
+
+/*content on donation page*/
+
+#donate {
+	float:right;
+	margin-right: 40px;
+}
+
+form{
+	display: inline-block;
+	margin-left: 40px;
+	margin-top: 40px;
+	float:left;
+} 
+
+#img1{
+ 	margin-left: 200px;
+ 	margin-top: 200px;
+ 	clear: left;	
+}
+
+#home{
+	height:300px;
+	text-align:center;
+}
+
+#profile {height:300px;}
+
+
+/* unslider things */
+
+.unslider-arrow {
+	position:relative;
+	left:0px;
+
+}
+
+.unslider-arrow.prev{
+	position:relative;
+	bottom: 240px;
+
+}
+.unslider-arrow.next {
+	bottom: 240px;
+	left:850px;
+}
+
+.my-slider {
+	margin-top:50px;
+}
+
+/*home page layout*/
+
+.left {
+	float:left;
+}
+
+.left img {
+	height: 400px;
+	width: 400px;
+	margin-left: 20px;
+}
+
+.right {
+	float:right;
+}
+
+.clear {
+	clear: both;
+}
+
+.innerContent {
+	height:400px;
+	width:500px;
+	overflow-y:scroll;
+	margin-right: 20px;
+}
+
+
+/*copied following from bootstrap CSS and included it here bc bootstrap CSS kept overwriting my CSS for certain elements*/
+.tab-content>.tab-pane{display:none}.tab-content>.active{display:block}
+.nav>li{position:relative;display:block}.nav>li>a{position:relative;display:block;}.nav>li>a:focus,.nav>li>a:hover{text-decoration:none;background-color:#eee}.nav>li.disabled>a{color:#777}.nav>li.disabled>a:focus,.nav>li.disabled>a:hover{color:#777;text-decoration:none;cursor:not-allowed;background-color:transparent}.nav .open>a,.nav .open>a:focus,.nav .open>a:hover{background-color:#eee;border-color:#337ab7}.nav .nav-divider{height:1px;margin:9px 0;overflow:hidden;background-color:#e5e5e5}
+
+.nav-tabs>li{float:left;margin-bottom:-1px}.nav-tabs>li>a{margin-right:2px;line-height:1.42857143;border:1px solid transparent;border-radius:4px 4px 0 0}.nav-tabs>li>a:hover{border-color:#eee #eee #ddd}.nav-tabs>li.active>a,.nav-tabs>li.active>a:focus,.nav-tabs>li.active>a:hover{color:#555;cursor:default;background-color:#fff;border:1px solid #ddd;border-bottom-color:transparent}.nav-tabs.nav-justified{width:100%;border-bottom:0}.nav-tabs.nav-justified>li{float:none}.nav-tabs.nav-justified>li>a{margin-bottom:5px;text-align:center}.nav-tabs.nav-justified>.dropdown .dropdown-menu{top:auto;left:auto}@media (min-width:768px){.nav-tabs.nav-justified>li{display:table-cell;width:1%}.nav-tabs.nav-justified>li>a{margin-bottom:0}}.nav-tabs.nav-justified>li>a{margin-right:0;border-radius:4px}.nav-tabs.nav-justified>.active>a,.nav-tabs.nav-justified>.active>a:focus,.nav-tabs.nav-justified>.active>a:hover{border:1px solid #ddd}@media (min-width:768px){.nav-tabs.nav-justified>li>a{border-bottom:1px solid #ddd;border-radius:4px 4px 0 0}.nav-tabs.nav-justified>.active>a,.nav-tabs.nav-justified>.active>a:focus,.nav-tabs.nav-justified>.active>a:hover{border-bottom-color:#fff}}.nav-pills>li{float:left}.nav-pills>li>a{border-radius:4px}.nav-pills>li+li{margin-left:2px}.nav-pills>li.active>a,.nav-pills>li.active>a:focus,.nav-pills>li.active>a:hover{color:#fff;background-color:#337ab7}.nav-stacked>li{float:none}.nav-stacked>li+li{margin-top:2px;margin-left:0}.nav-justified{width:100%}.nav-justified>li{float:none}.nav-justified>li>a{margin-bottom:5px;text-align:center}.nav-justified>.dropdown .dropdown-menu{top:auto;left:auto}@media (min-width:768px){.nav-justified>li{display:table-cell;width:1%}.nav-justified>li>a{margin-bottom:0}}.nav-tabs-justified{border-bottom:0}.nav-tabs-justified>li>a{margin-right:0;border-radius:4px}.nav-tabs-justified>.active>a,.nav-tabs-justified>.active>a:focus,.nav-tabs-justified>.active>a:hover{border:1px solid #ddd}@media (min-width:768px){.nav-tabs-justified>li>a{border-bottom:1px solid #ddd;border-radius:4px 4px 0 0}.nav-tabs-justified>.active>a,.nav-tabs-justified>.active>a:focus,.nav-tabs-justified>.active>a:hover{border-bottom-color:#fff}}.tab-content>.tab-pane{display:none}.tab-content>.active{display:block}.nav-tabs

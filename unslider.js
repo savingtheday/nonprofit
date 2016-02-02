@@ -22,7 +22,7 @@
 			//  Should the slider move on its own or only when
 			//  you interact with the nav/arrows?
 			//  Only accepts boolean true/false.
-			autoplay: true,
+			autoplay: false,
 
 			//  3 second delay between slides moving, pass
 			//  as a number in milliseconds.
